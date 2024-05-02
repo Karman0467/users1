@@ -1,0 +1,105 @@
+﻿
+body{
+    background:url('../img/topography.svg');  /*запись для гитхаба */
+    height: 1500px;
+    width: 1200px;
+}
+.wrapper{
+    top:0px;
+    height: 1400px;
+    width: 1200px;
+    background: url('../img/cubic.jpg');
+    background-size: 100% 100%;
+    border: 3px;
+}
+.head {
+    font-size: 70px;
+    text-align: center;
+    color:rgb(100, 250, 170);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Clean {
+    position: absolute;
+    left: 100px;
+    top: 148px;
+    width: 55px;
+    height: 30px;
+}
+
+.Position {
+    position: absolute;
+    left: 200px;
+    top: 148px;
+    background-color:hsl(0, 100%, 50%);
+}
+
+.id1 {
+    font-size: 20px;
+    background-color: hsl(60, 88%, 50%);
+    width: 280px;
+    height: 500px;
+    border-radius:5px;
+    box-shadow: 0 0 10px #000;
+}
+.element {
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    background: lightgreen;
+    display: inline-block;
+    margin: 5px;
+}
+
+.result {
+    margin: 5px;
+   /* width:160px;
+    height:30px;*/
+}
+
+
+.akcents {
+    border: 2px solid black;
+    width: 300px;
+    height: 25px;
+    font-size: 17px;
+    text-align:left;
+    display: inline-block;
+    margin: 5px;
+    color: #b6ff00;
+}
+
+#canv1 {
+    width: 770px;
+    height: 300px;
+    background: #8f8f8f;
+    position: absolute;
+    left: 10px;
+    top: 250px;
+}
+.footer{
+    justify-content: center; 
+    background-color:#eb2ea2;
+    width: 100%;
+    height: 100px;
+}
+.MotivProf
+{
+    display:block;
+    color:#000000; 
+    position:absolute;
+    left: 290px;
+    top:150px; 
+    width:900px;
+    height:800px;
+    background-color:#557878; 
+}
+#testlushera{
+    font-size: 20px;
+    color:#000000; 
+    cursor: pointer;
+}
+
+#testlushera:hover{
+    background-color: #f89d13;
+}
+
