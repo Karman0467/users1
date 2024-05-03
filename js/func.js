@@ -651,7 +651,8 @@ function motivprf()
   motivprof.appendChild(butresult);
 
   let beginresult = document.createElement("button");
-  beginresult.style="width: 140px; height: 30px; position: Relative ; left:400px; top:610px; background-color: #75552f; color:#14ffff;font-size:18px;";
+  /*beginresult.style="width: 140px; height: 30px; position: Relative ; left:400px; top:610px; background-color: #75552f; color:#14ffff;font-size:18px;";*/
+  beginresult.id = "motbegin";
   beginresult.id = "motbegin";
   beginresult.addEventListener("click", motivBegin, this, false);
   beginresult.textContent = "СНАЧАЛА";
