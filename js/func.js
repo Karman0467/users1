@@ -644,7 +644,7 @@ function motivprf()
   td76.append(check[34]);
    
   let butresult = document.createElement("button");
-  butresult.style="width: 140px; height: 30px; position: Relative ; left:250px; top:610px; background-color: #75552f; color:#14ffff;font-size:18px;";
+  butresult.style="width: 140px; height: 30px; position: relative ; left:250px; top:610px; background-color: #75552f; color:#14ffff;font-size:18px;";
   butresult.id = "motres";
   butresult.addEventListener("click", motivResult, this, false);
   butresult.textContent = "РЕЗУЛЬТАТ";
