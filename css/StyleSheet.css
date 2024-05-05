@@ -105,7 +105,7 @@ body{
 #motbegin{
     width: 140px; 
     height: 30px; 
-    position: absolute ; 
+    position: relative ; 
     left:400px; top:610px; 
     background-color: #75552f; 
     color:#14ffff;
